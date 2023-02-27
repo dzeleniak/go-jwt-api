@@ -2,9 +2,9 @@
 This project illustrates how to create a REST API to handle JWT token authentication.
 
 ## Technologies
-Gin => HTTP Framework
-Postgres => Database
-GORM => Object Relational Manager
+- Gin => HTTP Framework
+- Postgres => Database
+- GORM => Object Relational Manager
 
 ## MAIN
 ### Init()
@@ -52,7 +52,7 @@ The validation function has a requireAuth middleware attached and will not succe
     - Continue the pipeline
 
 
-
+## Libraries Used
 https://gorm.io/
 https://gin-gonic.com/docs/quickstart/
 https://github.com/joho/godotenv
